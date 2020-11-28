@@ -52,10 +52,11 @@ textarea{
     padding: 1rem;
     font-family: 'Nerko One' , cursive;
     font-weight: lighter;
+    font-size: 2rem;
 }
 
 footer{
-    background-color: #0a20afec;
+    background-color: #0a20afc7;
     position: absolute;
     bottom:0;
     width: 100%;

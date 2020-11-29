@@ -32,9 +32,9 @@ h1{
 
 section{
     /* height: 20rem; */
-    min-height: 28.3rem;
+    min-height: 32.3rem;
     margin: 2rem 2rem;
-    padding-top: .5rem;
+    padding-top: 1rem;
     height: fit-content;
     
 }
@@ -42,7 +42,7 @@ button{
     font-family: 'Gochi Hand', cursive;
     display: block;
     align-items: center;
-    margin: 1rem auto;
+    margin: 2rem auto;
     color: #0728fd;
     background-color : #f5e050;
     font-size: 1rem;
@@ -73,6 +73,9 @@ textarea{
 
 }
 
+.note{
+    margin-top: 4rem;
+}
 .note h3{ 
     font-family:'Gochi Hand', cursive;
     margin-bottom: .5rem;

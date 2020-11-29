@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Nerko+One&display=swap');
 
 body{
     margin : 0;
     padding : 0;
     box-sizing: border-box;
-    font-family: 'Nerko One' , cursive;
+    font-family: 'Caveat', cursive;
 }
 
 header{
@@ -31,7 +31,10 @@ h1{
 }
 
 section{
-    height: 20rem;
+    /* height: 20rem; */
+    margin: 2rem 2rem;
+    padding-top: .5rem;
+    
 }
 button{
     font-family: 'Gochi Hand', cursive;
@@ -40,24 +43,37 @@ button{
     margin: 1rem auto;
     color: #0728fd;
     background-color : #f5e050;
-    font-size: 1.5rem;
+    font-size: 1rem;
     cursor: pointer;
 }
 
 textarea{
     width: 80%;
+    margin: auto;
     height: 15vh;
     display: block;
-    margin: 2rem auto 0 auto;
     padding: 1rem;
-    font-family: 'Nerko One' , cursive;
+    font-family: 'Caveat', cursive;
     font-weight: lighter;
-    font-size: 2rem;
+    font-size: 1.5rem;
+}
+
+.translatedText {
+    width: 80%;
+    height: 12vh;
+    border : 1px solid;
+    display: block;
+    margin: 0 auto;
+    padding: 1rem;
+    font-family: 'Caveat', cursive;
+    font-weight: lighter;
+    font-size: 1rem;
+
 }
 
 footer{
-    background-color: #0a20afc7;
-    position: absolute;
+    background-color: #162aadf6;
+    position: fixed;
     bottom:0;
     width: 100%;
 }
@@ -73,10 +89,28 @@ footer h1{
 
 footer p{
     text-align: center ;
-    font-family: 'Gochi Hand', cursive;
-    font-size: 1.1rem;
+    /* font-family: 'Gochi Hand', cursive; */
+    font-family: 'Caveat', cursive;
+    font-size: 1.2rem;
     color: #F5E050;
     width:80%;
     margin : auto;
     padding-bottom: 1rem;
+}
+
+@media only screen and (min-width : 600px) {
+    button{
+        margin: 2rem auto;
+        font-size: 1.5em;
+    }
+
+    textarea {
+        width : 60%;
+        height: 18vh;
+    }
+
+    .translatedText{
+        width : 60%;
+        height: 18vh;
+    }
 }

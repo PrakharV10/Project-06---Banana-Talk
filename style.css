@@ -34,6 +34,7 @@ section{
     /* height: 20rem; */
     margin: 2rem 2rem;
     padding-top: .5rem;
+    height: fit-content;
     
 }
 button{
@@ -50,7 +51,7 @@ button{
 textarea{
     width: 80%;
     margin: auto;
-    height: 15vh;
+    height: 5rem;
     display: block;
     padding: 1rem;
     font-family: 'Caveat', cursive;
@@ -71,17 +72,28 @@ textarea{
 
 }
 
+.note h3{ 
+    font-family:'Gochi Hand', cursive;
+    margin-bottom: .5rem;
+    text-align: center;
+}
+
+.note p{
+    margin-top: .5rem;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
 footer{
     background-color: #162aadf6;
-    position: fixed;
-    bottom:0;
     width: 100%;
 }
 
 footer h1{
     text-align: center;
-    margin-bottom: 1rem;
+    margin-bottom: .5rem;
     margin-top: 1rem;
+    padding-top: 1rem;
     color: #F5E050;
     
 
@@ -89,8 +101,8 @@ footer h1{
 
 footer p{
     text-align: center ;
-    /* font-family: 'Gochi Hand', cursive; */
-    font-family: 'Caveat', cursive;
+    font-family: 'Gochi Hand', cursive;
+    /* font-family: 'Caveat', cursive; */
     font-size: 1.2rem;
     color: #F5E050;
     width:80%;
@@ -112,5 +124,13 @@ footer p{
     .translatedText{
         width : 60%;
         height: 18vh;
+    }
+
+    footer p{
+        width: 60%;
+    }
+
+    .note p{
+        font-size: 1.5rem;
     }
 }
